@@ -16,12 +16,26 @@ An aesthetically adorable digital art portfolio that contains my artworks and ar
 - CSS3
 - JavaScript
 - Local Storage
+- InfinityFree
 
 ## Setup
-1. Download or clone this repository.
-2. Open the project folder.
-3. Open `index.html` in a web browser.
-4. For the best local testing experience, use the Live Server extension in Visual Studio Code.
+
+(Accessing the local website)
+1. Open the project's GitHub repository: https://github.com/Jeanine-131/final-practical-calara 
+2. Click the Code button.
+3. Select "Download ZIP."
+4. Extract the downloaded ZIP file.
+5. Open Visual Studio Code.
+6. Select File → Open Folder.
+7. Choose the extracted project folder.
+
+
+(Accessing the live website)
+1. Open a web browser such as Google Chrome.
+2. Visit the deployed website using the InfinityFree URL under ## Live Demo URL. 
+3. Wait for the homepage to load.
+3. Browse the portfolio and interact with its features.
+
 
 ## Live Demo URL
-[Paste your deployed website URL here]
+https://finals-portfolio.2kool4u.net/
