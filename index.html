@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Peek Into My Whimsical World</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+         <a href="#home" class="logo">
+        Check out my whimsy!! <span>.</span>
+         </a>
+
+         <button
+            id="menu-toggle"
+            class="menu-toggle"
+            type="button"
+            aria-controls="site-nav"
+            aria-expanded="false">
+            Menu
+            </button>
+
+            <nav id="site-nav" class="site-nav">
+                <a href="#home">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+             <button id="theme-toggle" class="theme-toggle" type="button">
+                Dark Mode
+
+             </button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <h1>
+                ♡ Visual Storyteller ♡<br>
+            </h1>
+            <p class="eyebrow">────۶ৎ──── INDEPENDENT DIGITAL ILLUSTRATOR ────۶ৎ────</p>
+            <p class="hero-copy">
+                ⋆.˚໑ ݁༝ ۫ ׅ Drawing isn't a hobby, it's a medium ⋆.˚໑ ݁༝ ۫ ׅ
+            </p>
+            <a href="#gallery" class="primary-link">
+            ˚.⋆꒰১ check out my whimsical world ໒꒱⋆.˚
+            </a>
+        </section>
+
+        <section class="section" id="gallery">
+        <h2>
+            ⊹₊˚‧︵‿₊୨ Some of my whimsical illustrations ୧₊‿︵‧˚₊⊹
+        </h2>
+        <p class="section-intro">
+            Inside my head, one illustration at a time!
+        </p>
+
+        <div id="skills-list" class="skills-grid"></div>
+         </section>
+
+        <section class="section" id="about">
+            <h2>⊹₊˚‧︵‿₊୨ Get to know me ୧₊‿︵‧˚₊⊹</h2>
+            <p class="section-intro">
+                 I'm an independent digital illustrator with a love for
+                character-driven artwork and visual storytelling.
+                I enjoy exploring different concepts, experimenting
+                with artistic styles, and creating illustrations
+                that communicate more than words can express!!
+            </p>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>⊹₊˚‧︵‿₊୨ Commission inquiries ୧₊‿︵‧˚₊⊹</h2>
+            <p class="section-intro">
+                Interested in commissioning a piece?
+                Feel free to reach out to me!
+            </p>
+            <form id="contact-form" novalidate>
+                <div class="form-field">
+                    <label for="name">✦. ── Name ── .✦</label>
+
+                    <input
+                     type="text"
+                     id="name" 
+                     name="name"
+                     placeholder="Enter your name ◝(ᵔᗜᵔ)◜"required>
+
+                     <small class="error-message" id="name-error"></small>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">✦. ── Email address ── .✦</label>
+                    <input
+                     type="email"
+                     id="email"
+                     name="email"
+                     placeholder="Enter your email address ◝(ᵔᗜᵔ)◜" required>
+
+                     <small class="error-message" id="email-error"></small>
+                </div>
+
+                <div class="form-field">
+                    <label for="message">✦. ── Tell me the details ── .✦</label>
+                    <textarea
+                     id="message"
+                     name="message"
+                     placeholder="Describe your commission request ◝(ᵔᗜᵔ)◜" required></textarea>
+
+                     <small class="error-message" id="message-error"></small>
+                </div>
+
+                <button class="primary-button" type="submit">
+                   ♪ Send Inquiry ♪
+                </button>
+
+                <p
+                id="form-status"
+                class="form-status"
+                role="status"
+                aria-live="polite">
+                </p>
+
+                </form>
+        </section>
+
+    </main>
+
+    <footer>
+         <p>© 2026 A Peek Into My Whimsical World. All rights reserved.</p>
+         <p>Made with creativity and a little imagination.</p>
+    </footer>
+
+</body>
+</html>
